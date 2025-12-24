@@ -1,0 +1,25 @@
+:root {
+  --bg: #071021;
+  --card: #0b1220;
+  --muted: #9aa7b2;
+  --accent: #ef7a30;
+}
+html,body,#root { height:100%; margin:0; font-family: Inter, Arial, Helvetica, sans-serif; background: var(--bg); color: #e6eef6; }
+button { cursor:pointer; }
+.table { width:100%; border-collapse:collapse; }
+.table th, .table td { text-align:left; padding:10px; border-bottom:1px solid rgba(255,255,255,0.03); }
+.badge { padding:6px 10px; border-radius:999px; font-weight:600; font-size:13px; }
+.badge.pos { background:#1f6f3b; color:white; }
+.badge.neg { background:#c44d4d; color:white; }
+.badge.neu { background:#6b7280; color:white; }
+/* src/index.css (append or replace) */
+:root{
+  --bg:#071021;
+  --card:#0b1220;
+  --muted:#9aa7b2;
+  --accent:#06b6d4;
+  --accent2:#7c3aed;
+}
+body { margin:0; background:var(--bg); color:#e6eef6; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+h1,h2,h3,h4 { font-weight:700; }
+button { font-family:inherit; }

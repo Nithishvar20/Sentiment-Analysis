@@ -1,0 +1,7 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+pandas==2.2.2
+transformers==4.34.0
+torch>=2.2.0
+python-multipart==0.0.6
+matplotlib==3.8.2
